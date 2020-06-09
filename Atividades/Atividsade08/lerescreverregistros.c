@@ -1,7 +1,11 @@
 #include<stdio.h>
 #include<string.h>
 
-int main(){
+int main(int argc, char const *argv[])
+{
+//codigos de EDDIE0vIRMOND
+
+
 FILE *arq;
 int i=0;
 struct aluno {

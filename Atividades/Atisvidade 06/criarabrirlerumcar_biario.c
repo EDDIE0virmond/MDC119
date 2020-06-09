@@ -1,5 +1,7 @@
 #include <stdio.h>
-int main() {
+int main(int argc, char const *argv[])
+{
+                                                                              //codigos de EDDIE0vIRMOND
 FILE *queda;
 queda = fopen("quedaBIN.bin","w+b");
 if(queda == NULL){

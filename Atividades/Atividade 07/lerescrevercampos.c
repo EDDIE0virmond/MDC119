@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(int argc, char const *argv[])
-{
+{//codigos de EDDIE0vIRMOND
 FILE *arq;
 int i =0;
 char nome[30];
