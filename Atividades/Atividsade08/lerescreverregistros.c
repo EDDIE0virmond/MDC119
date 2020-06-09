@@ -16,12 +16,12 @@ if (arq == NULL) {
         printf("Problemas na abertura do arquivo\n");
         return 0;
     }
-printf("matricula\n ");
+printf("qual e a matricula ?????????????\n ");
 scanf("%s", aluno.matricula);
 
 while(strcmp("0",aluno.matricula)){
 
-printf("nome\n");
+printf("e o nome ????????? \n");
 scanf("%s", aluno.nome);
 
 fwrite(&aluno, sizeof(aluno), 1, arq);
